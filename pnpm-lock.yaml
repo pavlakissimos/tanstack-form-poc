@@ -26,6 +26,12 @@ dependencies:
   '@tanstack/yup-form-adapter':
     specifier: ^0.23.2
     version: 0.23.2(yup@1.4.0)
+  es-toolkit:
+    specifier: ^1.13.1
+    version: 1.13.1
+  global-tld-list:
+    specifier: ^0.0.765
+    version: 0.0.765
   react:
     specifier: ^18.3.1
     version: 18.3.1
@@ -1832,6 +1838,10 @@ packages:
       is-arrayish: 0.2.1
     dev: false
 
+  /es-toolkit@1.13.1:
+    resolution: {integrity: sha512-tGsgoI8DfU0yrZI7w97aYVMZJU5sjpXC+HK8aYf3pmLQRNHMleiJN5ud21dA/IHKkTDFY5jcDMQcLs0A21LtAg==}
+    dev: false
+
   /esbuild@0.21.5:
     resolution: {integrity: sha512-mg3OPMV4hXywwpoDxu3Qda5xCKQi+vCTZq8S9J/EpkhB2HzKXq4SNFZE3+NK93JYxc8VMSep+lOUSC/RVKaBqw==}
     engines: {node: '>=12'}
@@ -2139,6 +2149,10 @@ packages:
       once: 1.4.0
       path-is-absolute: 1.0.1
     dev: true
+
+  /global-tld-list@0.0.765:
+    resolution: {integrity: sha512-mWJS4jxEbeDtF3b3CBSzkQVmBexexXVS6OOCZO40frc8QXXbMvoUYc7udW4JmbGLN9WLQOy5SSkL8YDs/yBp4w==}
+    dev: false
 
   /globals@11.12.0:
     resolution: {integrity: sha512-WOBp/EEGUiIsJSp7wcv/y6MO+lV9UoncWqxuFfm8eBwzWNgyfBd6Gz+IeKQ9jCmyhoH99g15M3T+QaVHFjizVA==}
